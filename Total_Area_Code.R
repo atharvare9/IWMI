@@ -1,3 +1,7 @@
+
+#In this code, I rasterize the data I Collected for Net Sown, Irrigated and Unirrigated Area for Groudnut in Kamadhiya Basin in India. 
+
+
 library(raster)
 library(xlsx)
 library(rgdal)

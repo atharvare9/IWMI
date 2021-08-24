@@ -26,12 +26,11 @@ area_95_r <- rasterize(kam_area_95,r,'Irri_Groundnut_Allclasses')
 a95_r <- rasterize(kam_area_95,r,'Unirri_Groundnut_Allclasses')
 
 
-
 kam_area_95$Pixels
 pixels_r <- rasterize(kam_area_95, r, 'Pixels')
 plot(pixels_r)
 
-#create a uniform raster with each pixel showing the area for the corrsponding pixel
+#create a uniform raster with each pixel showing the area for the corresponding pixel
 NIA_grid_95<-kam_area_95_r/pixels_r
 
 IA_grid_95<-area_95_r/pixels_r
